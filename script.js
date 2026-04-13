@@ -385,4 +385,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
  
 document.getElementById('searchInput').addEventListener('input', filterAndSearch);
  
-renderGrid(games);
+document.addEventListener('DOMContentLoaded', () => {
+  renderGrid(games);
+});
