@@ -581,6 +581,3 @@ footer span {
   .detail-panel.open { grid-template-columns: 1fr; }
   .search-box { margin-left: 0; }
 }
-body {
-  background-color: red;
-}
